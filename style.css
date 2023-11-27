@@ -80,6 +80,7 @@ ul li{
 }
 ul li:nth-child(odd) {
   background: rgb(55 65 81);
+  margin: 5px 0px;
 }
 
   /*adding a background color and strike out the text*/
@@ -192,10 +193,7 @@ ul li:nth-child(odd) {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
- 
- 
- 
+  } 
           
   button:nth-child(even) {
     background-image: linear-gradient(to right, #E6DADA 0%, #274046  51%, #E6DADA  100%);
