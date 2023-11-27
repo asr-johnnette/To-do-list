@@ -18,7 +18,10 @@ function newElement() {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     taskItem.appendChild(checkbox);
-
+    checkbox.style.position = "absolute";
+    checkbox.style.left = "5px";
+    checkbox.style.top = "20px";
+    
     checkbox.addEventListener("change", () => {
         if (checkbox.checked) {
             taskTextElement.style.textDecoration = "line-through";
