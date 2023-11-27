@@ -154,6 +154,8 @@ ul li:nth-child(odd) {
   button {
     width: 50%;
     height:50px;
+    min-width: 200px;
+    min-height: 60px;
     background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
     margin: 10px;
     padding: 15px 45px;
@@ -176,6 +178,8 @@ ul li:nth-child(odd) {
   button:nth-child(even) {
     width: 50%;
     height:50px;
+    min-width: 200px;
+    min-height: 60px;
     background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
     margin: 10px;
     padding: 15px 45px;
